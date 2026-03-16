@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importância da Semântica</title>
+</head>
+
+<body>
+    <h1 id="inicio">A importancia da semântica para seu código</h1>
+    <ul>
+        <li><a href="#semantica">O que é Semântica</a></li>
+        <li><a href="#html">Semântica no HTML</a></li>
+        <li><a href="#elementos">Elementos Semânticos</a></li>
+    </ul>
+    <main>
+        <article id="semantica">
+            <h2>O que é Semântica</h2>
+            <p>No português, semântica se refere a área que estuda o significado de palavras frases e afins. No entanto,
+                na programação refere-se ao significado do trecho de código, por</p>
+            <p>por exemplo, qual a finalidade ou função aquela linha de código tem. A semântica é muito importante e
+                necessária, pois diz claramente o que aquele elemento significa tanto</p>
+            <p> para o programador, quanto para os navegadores.</p>
+        </article>
+        <article id="html">
+            <h2>Semântica no HTML</h2>
+            <p>Um exemplo de semântica no <abbr title="HyperText Markup Language">HTML</abbr> é o elemento
+                <code>&lt;h1&gt;</code> que representa o título de maior importância utilizado no cabeçalho. A seguir
+                mostrarei exemplos dos atributos h1</p>
+            <p>até o elemento h6 para que fique claro a diferença.</p>
+            <ol>
+                <li>
+                    <h1>Exemplo h1</h1>
+                </li>
+                <li>
+                    <h2>Exemplo h2</h2>
+                </li>
+                <li>
+                    <h3>Exemplo h3</h3>
+                </li>
+                <li>
+                    <h4>Exemplo h4</h4>
+                </li>
+                <li>
+                    <h5>Exemplo h5</h5>
+                </li>
+                <li>
+                    <h6>Exemplo h6</h6>
+                </li>
+            </ol>
+            <p>Note que o h1 possui o maior tamanho e os seguintes vão diminuindo. Por <strong>padrão semântico</strong>
+                usamos o h1 como título.</p>
+        </article>
+        <article id="elementos">
+            <h2>Elementos semânticos</h2>
+            <p>A seguir veremos exemplos de elementos semântico:</p>
+            <ul>
+                <li>Mark: Funciona como um marca texto
+                    <br>
+                    <mark>Exemplo mark</mark>
+                </li>
+                <li>Blockquote: Indica uma longa citação, podendo adicionar a url da fonte.
+                    <p>Exemplo:</p>
+                    <blockquote cite="https://querobolsa.com.br/revista/citacoes-para-redacao-sobre-tecnologia">
+                        <p>"Um ser humano deve transformar informação em inteligência ou conhecimento. Tendemos a
+                            esquecer que nenhum computador jamais fará uma nova pergunta."</p>
+                    </blockquote>
+                </li>
+                <li>Del: representa a parte do texto que foi exclída do documento.
+                    <p><del>Exemplo del</del></p>
+                </li>
+                <li>i: Antes usada como itálico, porém agora é utilizada pra destacar algo, podendo ser termos técnicos,
+                    outros idiomas e etc.
+                    <p>Exemplo: A expressão <i class="latin">Carpe diem</i> é muito utilizada hoje em dia e significa
+                        aproveite o momento/dia</p>
+                </li>
+                <li>u: Essa tag é utilizada para indicar erros de português ou para sublinhar trechos específicos sem
+                    indicar ênfase forte
+                    <p>Exemplo: A linguagem <u>HPML</u> é a base da internet</p>
+                </li>
+                <li>hr: Representa uma quebra temática entre elementos de nível de parágrafo (por exemplo , uma mudança
+                    da cena de uma história, ou uma mudança de tema com uma seção).
+                    <p>Exemplo: Primeiro paragrafo do conteúdo.</p>
+                    <hr>
+                    <p>Segundo paragrafo do conteúdo.</p>
+                </li>
+                <li>sup: Utilizado para definir texto sobrescrito.
+                    <p>Exemplo: x<sup>2</sup>+2x=0</p>
+                </li>
+                <li>sub: Utilizado para definir texto subscrito.
+                    <p>Exemplo: A molécula O<sub>2</sub> é imprescindível para a vida, bem como o H<sub>2</sub>O.</p>
+                </li>
+                <small><a href="#inicio">(Clique aqui para voltar ao inicio)</a></small>
+            </ul>
+        </article>
+        <article>
+            <p>Vale ressaltar que com a chegada no HTML5, algumas tags entraram em desuso, exemplo disso é a
+                <code>&lt;font&gt;</code></p>
+            <p>agora cabe ao css essas alterações. Segue exemplo:</p>
+            <font color="blue">Exemplo didático</font>
+        </article>
+    </main>
+    <footer>
+        <h3>Referências</h3>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics">MDN Web Docs</a>
+        </li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements">MDN Web Docs</a>
+        </li>
+        <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3 Schools</a></li>
+    </footer>
+</body>
+
+</html>
